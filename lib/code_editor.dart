@@ -71,10 +71,10 @@ class CodeEditor extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _CodeEditorState createState() => _CodeEditorState();
+  CodeEditorState createState() => CodeEditorState();
 }
 
-class _CodeEditorState extends State<CodeEditor> {
+class CodeEditorState extends State<CodeEditor> {
   /// We need it to control the content of the text field.
   late TextEditingController editingController;
 
